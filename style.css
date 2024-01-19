@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background: url('img/Background.png') no-repeat center center fixed, lightgray;
+    background-size: cover;
+    filter: blur(0px);
+    width: 100%;
+    height: 100vh;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-clima {
+    width: 100%;
+    max-width: 480px;
+    height: 100vh;
+    max-height: 480px;
+    border-radius: 10px;
+    background: url('img/Temperature\ Now\ \(1\).png') no-repeat center center / cover;
+    margin: 20px;
+}
+
+.container-img-cidade {
+    display: flex;
+}
+
+.cidade {
+    text-align: end;
+    width: 100%;
+    margin: 20px;
+    color: #C2BFF4;
+    text-align: right;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.img-nuv {
+    position: relative;
+    left: -80px;
+    top: -80px;
+}
+
+.clima {
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+sup {
+    font-size: 20px;
+    position: relative;
+    top: -15px;
+}
